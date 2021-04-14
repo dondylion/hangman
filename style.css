@@ -1,0 +1,74 @@
+body {
+    background-color: burlywood;
+}
+
+.input-word {
+    position: absolute;
+    top: 0;
+}
+
+.game {
+   position: absolute;
+   top: 0; 
+}
+
+.out {
+    left: -10000px;
+}
+
+td {
+    border: 2px solid black;
+    font-size: large;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.counter {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 100px;
+}
+
+.black {
+    color: white;
+    background-color: black;
+}
+
+input {
+    display: inline-block;
+    border-radius: 10%;
+    background-color: darkseagreen;
+    height: 3em;
+}
+
+button {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid green;
+    background-color: darkseagreen;
+    height: 3em;
+    width: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    display: block;
+}
+
+.bottom-line {
+    background-color: burlywood;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.choosen {
+    font-size: large;
+}

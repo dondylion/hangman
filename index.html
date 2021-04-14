@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hangman</title>
+
+	<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+	<div class="input-word">
+		<h1>Введите слово</h1>
+		<h2>До 15 букв</h2>
+		<input type="text" maxlength="15">
+		<button>GO</button>
+	</div>
+
+	<div class="game out">
+		<table class="alphabet">
+			<tr>
+				<td>а</td><td>б</td><td>в</td><td>г</td><td>д</td><td>е</td>
+			</tr>
+			<tr>
+				<td>ё</td><td>ж</td><td>з</td><td>и</td><td>й</td><td>к</td>
+			</tr>
+			<tr>
+				<td>л</td><td>м</td><td>н</td><td>о</td><td>п</td><td>р</td>
+			</tr>
+			<tr>
+				<td>с</td><td>т</td><td>у</td><td>ф</td><td>х</td><td>ц</td>
+			</tr>
+			<tr>
+				<td>ч</td><td>ш</td><td>щ</td><td>ъ</td><td>ы</td><td>ь</td>
+			</tr>
+			<tr>
+				<td>э</td><td>ю</td><td>я</td>
+			</tr>
+		</table>
+
+		<table>
+			<tr class="answer"></tr>
+		</table>
+
+		<div class="counter">6</div>
+	</div>
+
+	<script src="/main.js"></script>
+</body>
